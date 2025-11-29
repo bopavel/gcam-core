@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <global-technology-database>
+            <location-info sector-name="electricity" subsector-name="nuclear">
+                <pass-through-technology name="Gen_III">
+                    <period year="2030">
+                        <input-capital name="capital">
+                            <capital-overnight>1660</capital-overnight>
+                        </input-capital>
+                    </period>
+                    <period year="2035">
+                        <input-capital name="capital">
+                            <capital-overnight>1710</capital-overnight>
+                        </input-capital>
+                    </period>
+                    <period year="2040">
+                        <input-capital name="capital">
+                            <capital-overnight>1770</capital-overnight>
+                        </input-capital>
+                    </period>
+                    <period year="2045">
+                        <input-capital name="capital">
+                            <capital-overnight>1830</capital-overnight>
+                        </input-capital>
+                    </period>
+                    <period year="2050">
+                        <input-capital name="capital">
+                            <capital-overnight>1890</capital-overnight>
+                        </input-capital>
+                    </period>
+                </pass-through-technology>
+            </location-info>
+        </global-technology-database>
+</world>
+</scenario>
