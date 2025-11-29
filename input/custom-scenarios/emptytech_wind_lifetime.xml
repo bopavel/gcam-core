@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <global-technology-database>
+
+            <location-info sector-name="electricity" subsector-name="wind">
+                <intermittent-technology name="wind">
+                    <period year="2030">
+
+                        <lifetime>100</lifetime>
+
+                    </period>
+                </intermittent-technology>
+            </location-info>
+
+        </global-technology-database>
+    </world>
+</scenario>
