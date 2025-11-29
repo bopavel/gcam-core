@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <global-technology-database>
+            <location-info sector-name="electricity" subsector-name="geothermal">
+                <pass-through-technology name="geothermal">
+                    <period year="2030">
+                        <input-capital name="capital">
+                            <capital-overnight>900</capital-overnight>
+                        </input-capital>
+                    </period>
+                    <period year="2035">
+                        <input-capital name="capital">
+                            <capital-overnight>700</capital-overnight>
+                        </input-capital>
+                    </period>
+                    <period year="2040">
+                        <input-capital name="capital">
+                            <capital-overnight>550</capital-overnight>
+                        </input-capital>
+                    </period>
+                    <period year="2045">
+                        <input-capital name="capital">
+                            <capital-overnight>430</capital-overnight>
+                        </input-capital>
+                    </period>
+                    <period year="2050">
+                        <input-capital name="capital">
+                            <capital-overnight>330</capital-overnight>
+                        </input-capital>
+                    </period>
+                </pass-through-technology>
+            </location-info>
+        </global-technology-database>
+</world>
+</scenario>

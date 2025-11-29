@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <global-technology-database>
+            <location-info sector-name="elec_geothermal" subsector-name="geothermal">
+                <technology name="geothermal (recirculating)">
+                    <period year="2030">
+                        <input-capital name="cooling system">
+                            <capital-overnight>8</capital-overnight>
+                        </input-capital>
+                    </period>
+                    <period year="2035">
+                        <input-capital name="cooling system">
+                            <capital-overnight>6</capital-overnight>
+                        </input-capital>
+                    </period>
+                    <period year="2040">
+                        <input-capital name="cooling system">
+                            <capital-overnight>4</capital-overnight>
+                        </input-capital>
+                    </period>
+                    <period year="2045">
+                        <input-capital name="cooling system">
+                            <capital-overnight>3</capital-overnight>
+                        </input-capital>
+                    </period>
+                    <period year="2050">
+                        <input-capital name="cooling system">
+                            <capital-overnight>2</capital-overnight>
+                        </input-capital>
+                    </period>
+                </technology>
+            </location-info>
+        </global-technology-database>
+</world>
+</scenario>
